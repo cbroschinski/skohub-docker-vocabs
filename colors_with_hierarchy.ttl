@@ -4,11 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 colour: a skos:ConceptScheme ;
-    dct:title "Colour vocabulary with hierarchy"@en, "Farbvokabular mit Hierarchie"@de ;
+    dct:title "Colour vocabulary with hierarchy"@en, "Loriot-kompatibles Farbvokabular mit Hierarchie"@de ;
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:violet, colour:green .
+    skos:hasTopConcept colour:violet, colour:green, colour:grey .
 
 colour:violet a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en ;
@@ -19,7 +19,21 @@ colour:green a skos:Concept ;
     skos:prefLabel "Green"@en, "Grün"@de ;
     skos:narrower colour:grassgreen ;
     skos:topConceptOf colour: .
-    
+
+colour:grey a skos:Concept ;
+    skos:prefLabel "Grau"@de, "grey"@en ;
+    skos:narrower colour:mousegrey ;
+    skos:narrower colour:stonegrey ;
+    skos:topConceptOf colour: .
+
 colour:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
+    skos:inScheme colour: .
+
+colour:stonegrey a skos:Concept ;
+    skos:prefLabel "Stone grey"@en, "Steingrau"@de ;
+    skos:inScheme colour: .
+
+colour:mousegrey a skos:Concept ;
+    skos:prefLabel "Mouse grey"@en, "Mausgrau"@de ;
     skos:inScheme colour: .
