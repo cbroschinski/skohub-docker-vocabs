@@ -17,10 +17,10 @@
   },
   "narrower": [
     {
-      "id": "https://example.org/simple-animal-taxonomy/cat",
+      "id": "https://example.org/simple-animal-taxonomy/greater_roadrunner",
       "prefLabel": {
-        "en": "Domestic Cat",
-        "de": "Hauskatze"
+        "en": "Greater roadrunner",
+        "de": "Wegekuckuck"
       }
     }
   ],
