@@ -1,41 +1,17 @@
 {
-  "id": "https://example.org/simple-animal-taxonomy/canis",
+  "id": "https://example.org/simple-animal-taxonomy/coyote",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fcanis",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fcanis",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fcoyote",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fcoyote",
   "prefLabel": {
-    "en": "Canis",
-    "de": "Canis"
+    "en": "Coyote",
+    "de": "Kojote"
   },
-  "altLabel": {
-    "en": [
-      "Canis"
-    ],
-    "de": [
-      "Wolfs- und Schakalartige"
-    ]
-  },
-  "narrower": [
-    {
-      "id": "https://example.org/simple-animal-taxonomy/wolf",
-      "prefLabel": {
-        "en": "Wolf",
-        "de": "Wolf"
-      }
-    },
-    {
-      "id": "https://example.org/simple-animal-taxonomy/coyote",
-      "prefLabel": {
-        "en": "Coyote",
-        "de": "Kojote"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://example.org/simple-animal-taxonomy/mammal",
+    "id": "https://example.org/simple-animal-taxonomy/canis",
     "prefLabel": {
-      "en": "Mammal",
-      "de": "Säugetier"
+      "en": "Canis",
+      "de": "Canis"
     }
   },
   "inScheme": {

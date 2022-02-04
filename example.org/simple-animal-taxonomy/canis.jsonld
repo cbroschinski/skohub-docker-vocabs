@@ -22,6 +22,13 @@
         "en": "Wolf",
         "de": "Wolf"
       }
+    },
+    {
+      "id": "https://example.org/simple-animal-taxonomy/coyote",
+      "prefLabel": {
+        "en": "Coyote",
+        "de": "Kojote"
+      }
     }
   ],
   "broader": {
