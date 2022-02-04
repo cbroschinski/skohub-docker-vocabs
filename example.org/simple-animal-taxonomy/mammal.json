@@ -23,6 +23,11 @@
       }
     }
   ],
+  "exactMatch": [
+    {
+      "id": "https://d-nb.info/gnd/4051253-8"
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {
