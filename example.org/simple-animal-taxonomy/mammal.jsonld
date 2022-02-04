@@ -7,6 +7,15 @@
     "en": "Mammal",
     "de": "Säugetier"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/simple-animal-taxonomy/canis",
+      "prefLabel": {
+        "en": "Canis",
+        "de": "Canis"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {

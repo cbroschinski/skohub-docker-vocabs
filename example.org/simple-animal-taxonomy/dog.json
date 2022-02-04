@@ -1,30 +1,33 @@
 {
-  "id": "https://example.org/simple-animal-taxonomy/mammal",
+  "id": "https://example.org/simple-animal-taxonomy/dog",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fmammal",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fmammal",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fdog",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fdog",
   "prefLabel": {
-    "en": "Mammal",
-    "de": "Säugetier"
+    "en": "Domestic Dog",
+    "de": "Haushund"
   },
-  "narrower": [
-    {
-      "id": "https://example.org/simple-animal-taxonomy/canis",
-      "prefLabel": {
-        "en": "Canis",
-        "de": "Canis"
-      }
+  "altLabel": {
+    "en": [
+      "Dog"
+    ],
+    "de": [
+      "Hund"
+    ]
+  },
+  "broader": {
+    "id": "https://example.org/simple-animal-taxonomy/wolf",
+    "prefLabel": {
+      "en": "Wolf",
+      "de": "Wolf"
     }
-  ],
+  },
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {
       "en": "Simple Animal Taxonomy",
       "de": "Einfache Taxonomy für Tierarten"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/simple-animal-taxonomy/"
   },
   "@context": {
     "@version": 1.1,
