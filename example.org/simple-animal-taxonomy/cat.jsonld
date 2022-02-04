@@ -15,13 +15,6 @@
       "Katze"
     ]
   },
-  "broader": {
-    "id": "https://example.org/simple-animal-taxonomy/felis",
-    "prefLabel": {
-      "en": "Canis",
-      "de": "Felis"
-    }
-  },
   "related": [
     {
       "id": "https://example.org/simple-animal-taxonomy/dog",

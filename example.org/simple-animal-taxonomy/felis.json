@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Ffelis",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Ffelis",
   "prefLabel": {
-    "en": "Canis",
+    "en": "Felis",
     "de": "Felis"
   },
   "altLabel": {
     "en": [
-      "Canis"
+      "Felis"
     ],
     "de": [
       "Echte Katzen"
@@ -24,6 +24,13 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://example.org/simple-animal-taxonomy/mammal",
+    "prefLabel": {
+      "en": "Mammal",
+      "de": "Säugetier"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {

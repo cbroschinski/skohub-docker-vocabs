@@ -14,6 +14,13 @@
         "en": "Canis",
         "de": "Canis"
       }
+    },
+    {
+      "id": "https://example.org/simple-animal-taxonomy/felis",
+      "prefLabel": {
+        "en": "Felis",
+        "de": "Felis"
+      }
     }
   ],
   "inScheme": {

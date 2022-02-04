@@ -1,29 +1,12 @@
 {
-  "id": "https://example.org/simple-animal-taxonomy/cat",
+  "id": "https://example.org/simple-animal-taxonomy/greater_roadrunner",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fcat",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fcat",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fgreater_roadrunner",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fgreater_roadrunner",
   "prefLabel": {
-    "en": "Domestic Cat",
-    "de": "Hauskatze"
+    "en": "Greater roadrunner",
+    "de": "Wegekuckuck"
   },
-  "altLabel": {
-    "en": [
-      "Cat"
-    ],
-    "de": [
-      "Katze"
-    ]
-  },
-  "related": [
-    {
-      "id": "https://example.org/simple-animal-taxonomy/dog",
-      "prefLabel": {
-        "en": "Domestic Dog",
-        "de": "Haushund"
-      }
-    }
-  ],
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {

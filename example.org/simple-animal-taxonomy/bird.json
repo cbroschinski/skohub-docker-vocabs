@@ -7,6 +7,15 @@
     "en": "Bird",
     "de": "Vogel"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/simple-animal-taxonomy/geococcyx",
+      "prefLabel": {
+        "en": "Geococcyx",
+        "de": "Geococcyx"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {
