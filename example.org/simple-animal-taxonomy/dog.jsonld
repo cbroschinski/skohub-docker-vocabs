@@ -22,6 +22,15 @@
       "de": "Wolf"
     }
   },
+  "related": [
+    {
+      "id": "https://example.org/simple-animal-taxonomy/cat",
+      "prefLabel": {
+        "en": "Domestic Cat",
+        "de": "Hauskatze"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/simple-animal-taxonomy/",
     "title": {

@@ -1,28 +1,21 @@
 {
-  "id": "https://example.org/simple-animal-taxonomy/dog",
+  "id": "https://example.org/simple-animal-taxonomy/felis",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fdog",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Fdog",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Ffelis",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fsimple-animal-taxonomy%2Ffelis",
   "prefLabel": {
-    "en": "Domestic Dog",
-    "de": "Haushund"
+    "en": "Canis",
+    "de": "Felis"
   },
   "altLabel": {
     "en": [
-      "Dog"
+      "Canis"
     ],
     "de": [
-      "Hund"
+      "Echte Katzen"
     ]
   },
-  "broader": {
-    "id": "https://example.org/simple-animal-taxonomy/wolf",
-    "prefLabel": {
-      "en": "Wolf",
-      "de": "Wolf"
-    }
-  },
-  "related": [
+  "narrower": [
     {
       "id": "https://example.org/simple-animal-taxonomy/cat",
       "prefLabel": {
