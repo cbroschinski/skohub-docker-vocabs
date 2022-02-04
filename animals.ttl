@@ -1,0 +1,81 @@
+@prefix animal: <https://example.org/simple-animal-taxonomy/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+animal: a skos:ConceptScheme ;
+    dct:title "Simple Animal Taxonomy"@en, "Einfache Taxonomy für Tierarten"@de ;
+    dct:creator "cbroschinski"@de ;
+    dct:created "2022-02-04"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept animal:mammal, animal:bird, animal:reptile .
+
+animal:mammal a skos:Concept ;
+    skos:prefLabel "Säugetier"@de, "Mammal"@en ;
+    skos:definition: "Die Säugetiere (Mammalia) sind eine Klasse der Wirbeltiere."@de, 
+                     "Mammals are a group of vertebrates constituting the class Mammalia."@en ;
+    skos:narrower animal:canis ;
+    skos:narrower animal:felis ;
+    skos:exactMatch <https://d-nb.info/gnd/4051253-8> ;
+    skos:topConceptOf animal: .
+    
+animal:bird a skos:Concept ;
+    skos:prefLabel "Vogel"@de, "Bird"@en ;
+    skos:definition: "Die Vögel sind – nach traditioneller Taxonomie – eine Klasse der Wirbeltiere."@de,
+                     "Birds are a group of warm-blooded vertebrates constituting the class Aves"@en ;
+    skos:narrower animal:geococcyx ;
+    skos:topConceptOf animal: .
+
+animal:reptile a skos:Concept ;
+    skos:prefLabel "Reptil"@de, "Reptile"@en ;
+    skos:definition: "Die Reptilien oder Kriechtiere sind eine unterschiedlich definierte Gruppe von Tetrapoden."@de,
+                     "Reptiles, as most commonly defined, are the animals in the class Reptilia"@en ;
+    skos:topConceptOf animal: .
+    
+animal:canis a skos:Concept ;
+    skos:prefLabel "Canis"@de, "Canis"@en ;
+    skos:altLabel "Wolfs- und Schakalartige"@de, "Canis"@en ;
+    skos:narrower animal:wolf ;
+    skos:narrower animal:coyote ;
+    skos:inScheme animal: .
+    
+animal:felis a skos:Concept ;
+    skos:prefLabel "Felis"@de, "Felis"@en ;
+    skos:altLabel "Echte Katzen"@de, "Felis"@en ;
+    skos:narrower animal:cat ;
+    skos:inScheme animal: .
+    
+animal:geococcyx a skos:Concept ;
+    skos:prefLabel "Geococcyx"@de, "Geococcyx"@en ;
+    skos:altLabel "Rennkuckucke"@de, "Roadrunners"@en ;
+    skos:narrower animal:greater_roadrunner ;
+    skos:inScheme animal: .
+    
+animal:greater_roadrunner a skos:Concept ;
+    skos:prefLabel "Wegekuckuck"@de, "Greater roadrunner"@en ;
+    skos:member "The Roadrunner" ;
+    skos:note "Beep beep!"@en, "Beep beep!"@de ;
+    skos:inScheme animal: .
+
+animal:cat a skos:Concept ;
+    skos:prefLabel "Hauskatze"@de, "Domestic Cat"@en ;
+    skos:altLabel "Katze"@de, "Cat"@en ;
+    skos:member "Garfield" ;
+    skos:related  animal:dog;
+    skos:inScheme animal: .
+    
+animal:wolf a skos:Concept ;
+    skos:prefLabel "Wolf"@de, "Wolf"@en ;
+    skos:narrower animal:dog ;
+    skos:inScheme animal: .
+    
+animal:coyote a skos:Concept ;
+    skos:prefLabel "Kojote"@de, "Coyote"@en ;
+    skos:member "Wile E. Coyote"@en ;
+    skos:inScheme animal: .
+
+animal:dog a skos:Concept ;
+    skos:prefLabel "Haushund"@de, "Domestic Dog"@en ;
+    skos:altLabel "Hund"@de, "Dog"@en ;
+    skos:related  animal:cat;
+    skos:inScheme animal: .
