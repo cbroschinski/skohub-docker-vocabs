@@ -7,6 +7,10 @@
     "en": "Greater roadrunner",
     "de": "Wegekuckuck"
   },
+  "note": {
+    "en": "Beep beep!",
+    "de": "Beep beep!"
+  },
   "broader": {
     "id": "https://example.org/simple-animal-taxonomy/geococcyx",
     "prefLabel": {
